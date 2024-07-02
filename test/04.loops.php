@@ -8,5 +8,5 @@ while($count <count($cars)){
     echo PHP_EOL;
     // $count = $count +1;
     $count++;
-
 }
+
