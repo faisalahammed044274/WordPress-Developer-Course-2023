@@ -15,16 +15,16 @@ echo $a;
 // Data types :
 
 // 1. Integer
-$gh = 325;
+//$gh = 325;
 // 2. Float
-$gtt = 3.25;
+//$gtt = 3.25;
 // 3. String
-$g = "Hello";
+//$g = "Hello";
 // 4. Boolean
-$isLoggedIn = True;
+//$isLoggedIn = True;
 // 5. Array
-$fruits = array("Apple", "Banana", "Orange");
+//$fruits = array("Apple", "Banana", "Orange");
 // 6. Object
-$person = new Person("John", "Doe");
+//$person = new Person("John", "Doe");
 // 7. Null
-$null = null;
+//$null = null;
