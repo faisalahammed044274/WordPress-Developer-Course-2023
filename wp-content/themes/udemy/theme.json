@@ -1,0 +1,16 @@
+{
+    "$schema" : "https://schemas.wp.org/trunk/theme.json",
+    "version" : "1",
+    "settings" : {
+        "colour" : {
+            "custom" : false,
+            "pallate" : [
+                {
+                    "name" : "primary",
+                    "slug" : "primary",
+                    "color" : "#007bff"
+                }
+            ]
+        }
+    }
+}
