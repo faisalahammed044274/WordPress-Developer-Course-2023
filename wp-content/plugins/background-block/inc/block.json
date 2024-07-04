@@ -1,0 +1,120 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "evb/background",
+	"title": "Section Background",
+	"description": "Enhance Your Website's Aesthetics with the Background Block",
+	"version": "0.03",
+	"category": "widgets",
+	"keywords": [
+		"parallax section backgrounds",
+		"color gradient or image background",
+		"content background builder"
+	],
+	"textdomain": "background-block",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": "full"
+		},
+		"clientId": {
+			"type": "string",
+			"default": ""
+		},
+		"background": {
+			"type": "object",
+			"default": {
+				"desktop": {
+					"type": "color",
+					"color": "#5465ff",
+					"gradient": "linear-gradient(135deg, #5465ff, #788bff)",
+					"image": {
+						"url": "",
+						"position": "center center",
+						"attachment": "initial",
+						"repeat": "no-repeat",
+						"size": "cover"
+					}
+				}
+			}
+		},
+		"wrapper": {
+			"type": "object",
+			"default": {
+				"minHeight": "700px",
+				"padding": {
+					"desktop": {
+						"top": "0px",
+						"right": "0px",
+						"bottom": "0px",
+						"left": "0px"
+					},
+					"tablet": {
+						"top": "0px",
+						"right": "0px",
+						"bottom": "0px",
+						"left": "0px"
+					},
+					"mobile": {
+						"top": "0px",
+						"right": "0px",
+						"bottom": "0px",
+						"left": "0px"
+					}
+				},
+				"animation": {
+					"type": "none",
+					"parallax": {
+						"isReverse": false,
+						"speed": 1
+					},
+					"zoom": {
+						"origin": "center center",
+						"amount": 0.5
+					}
+				}
+			}
+		},
+		"content": {
+			"type": "object",
+			"default": {
+				"background": "background-color: #0000;",
+				"align": {
+					"vertical": "center",
+					"text": "center"
+				},
+				"padding": {
+					"desktop": {
+						"top": "25px",
+						"right": "40px",
+						"bottom": "25px",
+						"left": "40px"
+					},
+					"tablet": {
+						"top": "20px",
+						"right": "30px",
+						"bottom": "20px",
+						"left": "30px"
+					},
+					"mobile": {
+						"top": "15px",
+						"right": "20px",
+						"bottom": "15px",
+						"left": "20px"
+					}
+				}
+			}
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {}
+	},
+	"editorScript": "file:../dist/editor.js"
+}

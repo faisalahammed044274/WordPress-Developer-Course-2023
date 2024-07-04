@@ -1,0 +1,219 @@
+# Copyright (C) 2024 Plugin Envision
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Background Builder for Section 0.05\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/background-block-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-06-03T16:00:20+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: background-block\n"
+
+#. Plugin Name of the plugin
+msgid "Background Builder for Section"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://pluginenvision.com/plugins/background-block"
+msgstr ""
+
+#. Description of the plugin
+msgid "Customize your WordPress section easily! Choose backgrounds with color, gradient, image. Add parallax effects, and more for a stunning layout."
+msgstr ""
+
+#. Author of the plugin
+msgid "Plugin Envision"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pluginenvision.com"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1332
+#: dist/editor.js:1811
+msgid "Color"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1333
+msgid "Gradient"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1334
+msgid "Image"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1338
+msgid "Initial"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1339
+msgid "Scroll"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1340
+msgid "Fixed"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1341
+msgid "Local"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1345
+msgid "No Repeat"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1346
+msgid "Repeat"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1347
+msgid "Repeat X"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1348
+msgid "Repeat Y"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1352
+msgid "Cover"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1353
+msgid "Auto"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1354
+msgid "Contain"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1357
+msgid "None"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1358
+msgid "Parallax"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1363
+msgid "GENERAL"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1364
+msgid "STYLE"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1805
+#: dist/editor.js:1909
+msgid "Wrapper"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1806
+msgid "Type"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1818
+msgid "URL:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1820
+msgid "For overlay color, set content background."
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1849
+msgid "Scroll Animation"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1850
+msgid "Scroll animation will not work in editor."
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1858
+msgid "Speed"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1863
+#: dist/editor.js:1921
+msgid "Content"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1864
+msgid "Content / Overlay Background"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1914
+#: dist/editor.js:1924
+msgid "Padding"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1980
+msgid "Content in top"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1981
+msgid "Content in center"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1982
+msgid "Content in bottom"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block title"
+msgid "Section Background"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block description"
+msgid "Enhance Your Website's Aesthetics with the Background Block"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "parallax section backgrounds"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "color gradient or image background"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "content background builder"
+msgstr ""
