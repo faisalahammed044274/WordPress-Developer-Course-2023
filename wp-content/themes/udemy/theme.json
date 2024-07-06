@@ -59,6 +59,12 @@
                     "customDuotone": false
                 }
             }
+        },
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
         }
     },
     "styles": {
@@ -78,6 +84,14 @@
         "core/button": {
             "color": {
                 "gradient": "var(--wp--preset--gradient--u-summer-dog)"
+            }
+        },
+        "core/pullquote":{
+            "border":{
+                "width" : "2px",
+                "radius": "10px",
+                "style": "solid",
+                "color": "var(--wp--preset--gradient--u-primary)"
             }
         }
     }
