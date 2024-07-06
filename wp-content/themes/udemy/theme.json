@@ -51,9 +51,7 @@
                     "gradients": [],
                     "customGradient": false
 
-                }
-            },
-            "core/site-title":{
+                },
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--u-pacifico)"
                 }
@@ -122,41 +120,40 @@
                     "text": "var(--wp--preset--color--u-primary)"
                 }
             }
-        }
-    },
-    "blocks": {
-        "core/button": {
-            "color": {
-                "gradient": "var(--wp--preset--gradient--u-summer-dog)"
+        },
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "gradient": "var(--wp--preset--gradient--u-summer-dog)"
+                }
+            },
+            "core/pullquote":{
+                "border":{
+                    "width" : "2px",
+                    "radius": "10px",
+                    "style": "solid",
+                    "color": "var(--wp--preset--gradient--u-primary)"
+                }
             }
         },
-        "core/pullquote":{
-            "border":{
-                "width" : "2px",
-                "radius": "10px",
-                "style": "solid",
-                "color": "var(--wp--preset--gradient--u-primary)"
+        "typography":{
+            "fontFamily": {
+                "body": "var(--wp--preset--font-family--u-sans-serif)"
+                }
+        }, 
+        "spacing":{
+            "margin":{
+            "top":"0px",
+            "bottom":"0px",
+            "left":"0px",
+            "right":"0px"
+            },
+            "padding":{
+            "top":"0px",
+            "bottom":"0px",
+            "left":"0px",
+            "right":"0px"
             }
-        }
-    },
-    "typopgraphy":{
-        "fontFamily": {
-            "body": "var(--wp--preset--font-family--u-sans-serif)"
-            }
-    }, 
-    "spacing":{
-        "margin":{
-        "top":"0px",
-        "bottom":"0px",
-        "left":"0px",
-        "right":"0px"
-        },
-        "padding":{
-        "top":"0px",
-        "bottom":"0px",
-        "left":"0px",
-        "right":"0px"
         }
     }
-
 }
