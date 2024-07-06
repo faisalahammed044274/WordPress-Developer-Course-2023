@@ -65,6 +65,22 @@
             "radius": true,
             "style": true,
             "width": true
+        },
+        "typography": {
+            "color": true,
+            "fontFamilies": [
+                { 
+                    "fontFamily": "Rubik, sans-serif",
+                    "slug": "u-rubik",
+                    "name": "Udemy Rubik"
+                },
+                { 
+                    "fontFamily": "Pacifico, sans-serif",
+                    "slug": "u-pacifico",
+                    "name": "Udemy pacifico"
+                }
+
+            ]
         }
     },
     "styles": {
